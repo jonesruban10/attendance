@@ -1,0 +1,53 @@
+.staff {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.labels {
+  width: 100%;
+  max-width: 400px;
+  /* display: grid; */
+}
+
+.labels label {
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='date'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+

@@ -1,0 +1,67 @@
+.leave {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.leave h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.leave img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 20px;
+  margin-left: 5rem;
+}
+
+.leave label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.leave textarea
+{
+ height: 54px;
+ width: 580px;
+}
+ 
+ 
+
+ .leave input[type='text'],
+ .leave input[type='email'],
+ .leave textarea {
+   width: 70%; /* Set input fields to be 50% width */
+   margin: 0 auto; /* Center-align input fields */
+   text-align: center; /* Center-align text */
+   
+ }
+ 
+.leave input[type='submit'] {
+  margin-top: 1rem;
+  width: 30%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.leave input[type='text']::placeholder,
+.leave input[type='email']::placeholder,
+.leave textarea::placeholder {
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .leave {
+    padding: 10px;
+  }
+ 
+  
+}

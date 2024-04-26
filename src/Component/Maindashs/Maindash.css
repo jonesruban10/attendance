@@ -1,0 +1,40 @@
+ .Maindash{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+   
+ }  
+
+
+
+.MainDash {
+    max-height: 0 auto;
+    overflow-y: auto;
+   
+  }
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track
+  {
+   background: none;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(--boxShadow);
+  }
+
+@media screen and (max-width: 1200px) {
+    
+    .Maindash{justify-content: flex-start;
+      margin-top: 2rem;
+  }
+}
+ 
+@media screen and (max-width:768px){
+    .Maindash{
+        align-items: center;
+        
+    }
+    
+}  
+
